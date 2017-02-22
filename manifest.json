@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Whiny McTinyfingers",
+  "version": "1.0",
+  "description": "Change every instance of 'Trump' to 'Whiny McTinyfingers'",
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["<all_urls>"]
+  }]
+
+}
